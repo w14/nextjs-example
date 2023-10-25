@@ -1,6 +1,5 @@
 npx create-next-app@latest
 cd example
-mkdir pages
-vim pages/[...path].js
-# insert example code
+mkdir app/[...path]
+mv app/page.jsx app/[...path]/page.jsx
 npm run dev
